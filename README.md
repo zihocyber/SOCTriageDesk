@@ -59,14 +59,6 @@ Use this as a supervised learning aid or approved local companion to your organi
 
 Typical Tier 1 responsibilities include reviewing assigned alerts against team SLAs, validating the alert with source evidence, identifying affected assets/accounts and timeframe, correlating relevant endpoint/network/authentication context, documenting objective findings and uncertainty, escalating suspected incidents using the playbook, and handing off clear next steps. Required entry-level skills commonly include Windows/Linux log familiarity, TCP/IP/DNS fundamentals, SIEM/EDR navigation, basic identity/authentication concepts, careful evidence handling, sound written communication, and knowing when to escalate. Team-specific tools, severity definitions, and playbooks take precedence.
 
-## Portfolio and CV
-
-Use synthetic or sanitized data for demonstrations. A truthful project description could be: “Built a Python/Tkinter SOC triage casebook with CSV alert ingestion, SQLite persistence, duplicate-event handling, analyst notes, triage status/disposition, case history, CSV export, and scoped TCP checks.” Do not describe it as a production SIEM/SOAR integration or imply that synthetic cases are professional incident-response experience.
-
-See [SOC_ANALYST_GUIDE.md](SOC_ANALYST_GUIDE.md) for a researched market overview, the app's honest boundaries, a practice workflow, a five-minute interview walkthrough, CV wording, and questions to ask employers. The Bulgaria section distinguishes broad EU ICT statistics from SOC-specific vacancy data.
-
-For a beginner-friendly explanation in Bulgarian, see [SOC_ANALYST_GUIDE_BG.md](SOC_ANALYST_GUIDE_BG.md). It explains each screen and feature, key cybersecurity terms, how to practice triage, and how to present the project in a Bulgarian-language interview or CV.
-
 ## Windows executable
 
 Double-click `build_windows.bat` from a machine with Python installed, or run the batch file from this folder. It installs PyInstaller and builds `dist\SOCTriageDesk.exe`. The executable bundles Python; the destination machine does not need a separate Python installation. Windows may show a warning because the executable is unsigned. Build and distribute software only in accordance with your organization's endpoint/application-control policy.
